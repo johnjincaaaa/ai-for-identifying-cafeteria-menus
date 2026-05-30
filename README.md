@@ -1,3 +1,5 @@
+![img.png](img.png)
+
 C:\Users\29124\Desktop\Python_code\.venv\Scripts\python.exe D:\Python\dectrypto\006\q\crawl\2_5月24日_食堂菜品营养预测模型\main.py 
 New https://pypi.org/project/ultralytics/8.4.57 available  Update with 'pip install -U ultralytics'
 Ultralytics 8.4.53  Python-3.13.7 torch-2.9.1+cu126 CUDA:0 (NVIDIA GeForce RTX 4050 Laptop GPU, 6140MiB)
