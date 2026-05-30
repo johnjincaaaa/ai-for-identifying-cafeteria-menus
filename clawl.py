@@ -4,7 +4,7 @@ from DrissionPage import ChromiumPage
 
 page = ChromiumPage()
 
-page.get("https://cn.bing.com/images/search?q=红烧肉&form=IRFLTR&first=1")
+page.get("https://cn.bing.com/images/search?q=口水鸡&form=IRFLTR&first=1")
 time.sleep(3)
 page.run_js('window.scrollTo(0, document.body.scrollHeight);')
 time.sleep(2)
@@ -15,7 +15,7 @@ for image in images:
     print(image.attr('src'))
     try:
         resp = requests.get(image.attr('src'))
-        with open(f'dataset/images/train/b{index}.jpg','wb')as f:
+        with open(f'dataset/images/train/g{index}.jpg','wb')as f:
             f.write(resp.content)
         index = index + 1
     except:

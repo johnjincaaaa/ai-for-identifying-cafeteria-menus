@@ -1,7 +1,0 @@
-train: ./dataset/images/train
-val: ./dataset/images/val
-
-nc: 2  # 菜品数量（你食堂有多少类填多少）
-names:
-  0: 番茄炒蛋
-  1: 红烧肉
